@@ -1,70 +1,148 @@
-# test
+# 1. Karma
 
-http://ttt.badking.net/config-and-commands/convars#TOC-Karma
+ttt_karma 1     (def. 30)
 
-ttt_karma 1
+ttt_karma_persist 1     (def. 30)
 
-ttt_karma_persist 1
+ttt_karma_round_increment 2     (def. 30)
 
-ttt_karma_round_increment 2
+ttt_karma_starting 1000     (def. 30)
 
-ttt_karma_starting 1000
+ttt_karma_max 1010     (def. 30)
 
-ttt_karma_max 1010
+ttt_karma_clean_bonus 25     (def. 30)
 
-ttt_karma_clean_bonus 25
+ttt_karma_kill_penalty 100     (def. 30)
 
-ttt_karma_kill_penalty 100
+ttt_karma_hp_mult 1.75     (def. 30)
 
-ttt_karma_hp_mult 1.75
-ttt_karma_hp_tolerance 100
-
-ttt_voice_drain 1
-ttt_voice_drain_normal 0.01
-ttt_locational_voice 1
-
-ttt_traitor_pct 0.334
-ttt_traitor_max 4
-ttt_traitor_credits_starting 2
-ttt_credits_alonebonus 1
-ttt_credits_award_pct 0.750000 
-ttt_detective_min_players 5
-ttt_detective_pct 0.2
-ttt_det_credits_starting 3
-ttt_detective_max 2
-ttt_det_credits_traitorkill 2
-ttt_detective_hats 1
-
-ttt_haste 1
-ttt_haste_starting_minutes 7
-ttt_haste_minutes_per_death 0.6
-ttt_roundtime_minutes 15
-ttt_preptime_seconds 10
-ttt_firstpreptime 40
-ttt_posttime_seconds 15
-ttt_minimum_players 2
-ttt_postround_dm 1
-ttt_no_nade_throw_during_prep 1
-ttt_allow_discomb_jump 1
-ttt_ragdoll_pinning 1
-ttt_ragdoll_pinning_innocents 1
-ttt_spec_prop_force 200
+ttt_karma_hp_tolerance 100     (def. 30)
 
 
-Addons:
-	TTT Statistics:
-	tstat_enabled 1
-	ttt_karma_hp_min_health 40
-	ttt_karma_low_ban 1
-	ttt_karma_low_ban_minutes 3
-	ttt_demonic_power_regen 8
-	ttt_clairvoyant_camera_distance 200
-	ttt_clairvoyant_distance 1400
-	DeathNote_DeathTime 30
-	ttt_mineturtle_limited_stock 0
-	ttt_enlarge_scale 1.8
-	ttt_enlarge_dmg_multiplier 1.35
-	ttt_beartrap_escape_pct 0.10000 
+# 2. Voice Chat
+
+ttt_voice_drain 1     (def. 30)
+
+ttt_voice_drain_normal 0.01     (def. 30)
+
+ttt_locational_voice 1     (def. 30)
+
+
+# 3. Roles
+
+ttt_traitor_pct 0.334     (def. 30)
+ttt_traitor_max 4     (def. 30)
+ttt_traitor_credits_starting 2     (def. 30)
+ttt_credits_alonebonus 1     (def. 30)
+ttt_credits_award_pct 0.750000      (def. 30)
+ttt_detective_min_players 5     (def. 30)
+ttt_detective_pct 0.2     (def. 30)
+ttt_det_credits_starting 3     (def. 30)
+ttt_detective_max 2     (def. 30)
+ttt_det_credits_traitorkill 2     (def. 30)
+ttt_detective_hats 1     (def. 30)
+
+
+# 4.1 Rounds: Prep and Post
+
+ttt_firstpreptime 40     (def. 60)
+
+ttt_preptime_seconds 10     (def. 30)
+
+ttt_posttime_seconds 15     (def. 30)
+
+ttt_postround_dm 1     (def. ?)
+
+
+# 4.2 Rounds: Length and Switch
+
+ttt_minimum_players 2     (def. ?)
+
+ttt_roundtime_minutes 15     (def. 10)
+
+ttt_haste 1     (def. 1)
+
+ttt_haste_starting_minutes 7     (def. 5)
+
+ttt_haste_minutes_per_death 0.6     (def. 0.5)
+
+# 4.3 Rounds: Misc
+
+ttt_no_nade_throw_during_prep 1     (def. 0)
+
+ttt_allow_discomb_jump 1     (def. ?)
+
+ttt_ragdoll_pinning 1     (def. 1)
+
+ttt_ragdoll_pinning_innocents 1     (def. 0)
+
+ttt_spec_prop_force 200     (def. 100)
+
+
+# 5.1 Addons: Misc
+
+ttt_rolevote_autostart 1     (def. ?)
+
+rolevote_min_players 3     (def. ?)
+
+rolevote_voteban 1     (def. ?)
+	
+ttt_rolevote_min_players 5     (def. ?)
+	
+ttt_rolevote_count 2     (def. ?)
+	
+ttt_rolevote_always_active hitman     (def. blank)     >    "role1,role2"
+
+tstat_enabled 1     (def. ?)
+
+ttt_karma_hp 1     (def. ?)
+
+ttt_karma_hp_min_health 40     (def. 20)
+
+ttt_karma_low_amount 450     (def. ?)
+
+ttt_karma_low_ban 1     (def. ?)
+
+ttt_karma_low_ban_minutes 3     (def. ?)
+
+ttt_soda_total_spawn_amount 9     (def. 6)
+
+ttt_soda_limit_one_per_player 0     (def. 0)
+
+ttt_soda_speedup 1.500000     (def. 1.75)
+
+ttt_soda_healup 15     (def. 10)
+
+ttt_soda_armorup 15     (def. 10)
+
+
+# 5.2 Addons: Weapon Config
+
+ttt_demonic_power_regen 8     (def. ?)
+
+ttt_clairvoyant_camera_distance 200     (def. ?)
+
+ttt_clairvoyant_distance 1400     (def. 1800)
+
+ttt_clairvoyant_camera_distance 170     (def. 150)
+
+DeathNote_DeathTime 30     (def. ?)
+
+ttt_mineturtle_limited_stock 0     (def. 1)
+
+ttt_enlarge_scale 1.8     (def. ?)
+
+ttt_enlarge_dmg_multiplier 1.35     (def. ?)
+
+ttt_beartrap_escape_pct 0.10000      (def. ?)
+
+ttt2_minigames_autostart_random 5      (def. ?)
+
+
+
+
+
+
 TTT2 Roles:
 	ttt_amnesiac_min_players 6
 	ttt_jackal_min_players 5
@@ -117,16 +195,3 @@ TTT2 Roles:
 	ttt_amnesiac_min_players 10
 TTT2 Classes:
     tttc_class_bountyhunter_enabled 0
-TTT2 Stuff:
-	ttt_rolevote_autostart 1
-	rolevote_min_players 3
-	rolevote_voteban 1
-	ttt_rolevote_min_players 5
-	ttt_rolevote_count 2
-	ttt_rolevote_always_active hitman	  >    "role1,role2"
-    ttt_soda_speedup 1.500000
-    ttt_soda_total_spawn_amount 8
-    ttt_soda_limit_one_per_player 0
-    ttt_soda_healup 15
-    ttt_soda_armorup 15
-    ttt2_minigames_autostart_random 15
