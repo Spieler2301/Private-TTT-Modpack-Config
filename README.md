@@ -3,8 +3,11 @@
 http://ttt.badking.net/config-and-commands/convars#TOC-Karma
 
 ttt_karma 1
+
 ttt_karma_persist 1
+
 ttt_karma_round_increment 2
+
 ttt_karma_starting 1000
 ttt_karma_max 1010
 ttt_karma_clean_bonus 25
