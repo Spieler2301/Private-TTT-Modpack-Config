@@ -63,6 +63,8 @@ ttt_posttime_seconds 15     (def. 30)
 
 ttt_postround_dm 1     (def. ?)
 
+ttt_spawn_wave_interval 4     (def. 0)     >    if there are not ennough spawns, wait x seconds, then spawn more players
+
 
 # 4.2 Rounds: Length and Switch
 
@@ -86,7 +88,9 @@ ttt_ragdoll_pinning 1     (def. 1)
 
 ttt_ragdoll_pinning_innocents 1     (def. 0)
 
-ttt_spec_prop_force 200     (def. 100)
+ttt_spec_prop_force 200     (def. 110)
+
+ttt_namechange_bantime 1     (def. 10)
 
 
 # 5.1 Addons: Misc
@@ -257,6 +261,70 @@ ttt2_defective_can_see_defectives 0       (def. 1)
 
 ttt2_defective_special_det_handling_mode 2       (def. 1)     >    0 = all det have thier special roles, 1 = not det have thier special roles, 2 = all det get special roles when def are dead
 
+# 5.2.8 Roles: Hitman (T)
+
+ttt_hitman_min_players 6       (def. 6)
+
+ttt_hitman_random 75       (def. 50)
+
+ttt_hitman_pct 17       (def. 17)
+
+ttt_hitman_max 1       (def. 1)
+
+ttt2_hitman_target_chatreveal 1       (def. ?)
+
+ttt_hit_credits_starting 1       (def. ?)
+
+# 5.2.9 Roles: Amnesiac (NA)
+
+ttt_amnesiac_min_players 10       (def. 7)
+
+ttt_amnesiac_random 50       (def. 50)
+
+ttt_amnesiac_pct 0.1       (def. 0.17)
+
+ttt_amnesiac_max 1       (def. 1)
+
+# 5.2.10 Roles: Medic (NA)
+
+ttt_medic_min_players 6       (def. 8)
+
+ttt_medic_random 30       (def. 33)
+
+ttt_medic_pct 0.15       (def. 0.15)
+
+ttt2_med_medigun_self_heal_per_tick_uber 2
+
+ttt2_med_win_enabled 1       (def. 0)
+
+ttt2_med_win_rqd_heal_per_alv_ply 25
+
+# 5.2.11 Roles: Mimic (NA)
+
+ttt_mimic_min_players 6       (def. 6)
+
+ttt_mimic_random 10       (def. 33)
+
+ttt_mimic_pct 0.25       (def. 0.15)
+
+ttt_mimic_max 2       (def. 1)
+
+ttt2_mim_steal_role 0       (def. 1)
+
+# 5.2.12 Roles: Doppelganger (T?/Dop?)
+
+ttt_doppelganger_min_players 7
+ttt_doppelganger_pct 0.10000
+
+
+
+# 5.2.13 Roles: Mim & Dop Commands
+
+ttt2_dop_steal_delay 10       (def. 2)
+
+ttt2_dop_replace_role 0       (def. 1)     >    0 = inno, 1 = amnesiac, 2 = unknown, 3 = mimic
+
+
 
 
 
@@ -266,27 +334,11 @@ ttt_jackal_pct 0.17
 ttt_jackal_random 30
 ttt_jackal_spawn_siki_deagle 0
 ttt_jackal_spawn_siki_deagle 1
-ttt2_hitman_target_chatreveal 1
-ttt_hit_credits_starting 1
-
-
-
-ttt_medic_random 30
-ttt_medic_min_players 6
-ttt2_med_medigun_self_heal_per_tick_uber 2
 ttt_necro_credits_starting 3
 ttt_necromancer_min_players 6
 ttt_necromancer_random 40
-ttt_mimic_min_players 6
-ttt_mimic_max 2
-ttt_mimic_pct 0.45
-ttt2_mim_steal_role 0
-ttt_doppelganger_min_players 7
-ttt_doppelganger_pct 0.10000
 ttt_spy_min_players 6
 ttt_spy_random 25
 
-
-	ttt_amnesiac_min_players 10
 TTT2 Classes:
     tttc_class_bountyhunter_enabled 0
