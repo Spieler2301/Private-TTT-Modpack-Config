@@ -336,25 +336,33 @@ ttt2_dop_replace_role 0       (def. 1)     >    0 = inno, 1 = amnesiac, 2 = unkn
 
 # 5.2.15 Roles: Jackal (J)
 
-ttt_jackal_min_players 5
-ttt_jackal_pct 0.17
-ttt_jackal_random 30
-ttt_jackal_spawn_siki_deagle 0
-ttt_jackal_spawn_siki_deagle 1
+ttt_jackal_min_players 5       (def. 7)
+
+ttt_jackal_random 30       (def. 50)
+
+ttt_jackal_pct 0.17       (def. 17)
+
+ttt_jackal_spawn_siki_deagle 1       (def. 1)
 
 # 5.2.16 Roles: Sidekick (J)
 
+ttt2_siki_deagle_refill_cd 140       (def. 120)
+
+ ttt2_siki_deagle_refill_cd_per_kill 60       (def. 60)
+
 # 5.2.17 Roles: Necromancer (N)
 
-ttt_necro_credits_starting 3
-ttt_necromancer_min_players 6
-ttt_necromancer_random 40
+ttt_necromancer_min_players 6       (def. 7)
+
+ttt_necromancer_random 40       (def. 40)
+
+ttt_necromancer_pct 0.17       (def. 0.15)
+
+ttt_necromancer_max 1       (def. 1)
+
+ttt_necro_credits_starting 3       (def. ?)
 
 
+# 5.3 Addons: TTT2 Classes
 
-
-
-
-
-TTT2 Classes:
-    tttc_class_bountyhunter_enabled 0
+tttc_class_bountyhunter_enabled 0       (def. 1)
