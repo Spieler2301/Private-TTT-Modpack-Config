@@ -31,15 +31,25 @@ ttt_locational_voice 1     (def. 30)
 # 3. Roles
 
 ttt_traitor_pct 0.334     (def. 30)
+
 ttt_traitor_max 4     (def. 30)
+
 ttt_traitor_credits_starting 2     (def. 30)
+
 ttt_credits_alonebonus 1     (def. 30)
+
 ttt_credits_award_pct 0.750000      (def. 30)
+
 ttt_detective_min_players 5     (def. 30)
+
 ttt_detective_pct 0.2     (def. 30)
+
 ttt_det_credits_starting 3     (def. 30)
+
 ttt_detective_max 2     (def. 30)
+
 ttt_det_credits_traitorkill 2     (def. 30)
+
 ttt_detective_hats 1     (def. 30)
 
 
@@ -139,41 +149,52 @@ ttt_beartrap_escape_pct 0.10000      (def. ?)
 ttt2_minigames_autostart_random 5      (def. ?)
 
 
+# 5.2 Addons: TTT2 Roles
 
+ttt_beacon_min_players 5      (def. 6)
 
+ttt_beacon_pct 0.2      (def. 0.15)
 
+ttt_beacon_max 1      (def. 1)
 
-TTT2 Roles:
-	ttt_amnesiac_min_players 6
-	ttt_jackal_min_players 5
-	ttt_jackal_pct 0.17
-	ttt_jackal_random 30
-	ttt_jackal_spawn_siki_deagle 0
-	ttt_jackal_spawn_siki_deagle 1
-	ttt2_hitman_target_chatreveal 1
-	ttt_hit_credits_starting 1
-	ttt_lycanthrope_min_players 4
-	ttt_lycanthrope_random 50
-	ttt_lycanthrope_max 2
-	ttt_lycanthrope_pct 0.25
-	ttt2_lyc_speed 1.400000
-	ttt_beacon_min_players 4
-	ttt2_beacon_min_buffs 0
-	ttt2_beacon_speed_boost 0.150000
-	ttt_medic_random 30
-	ttt_medic_min_players 6
-	ttt2_med_medigun_self_heal_per_tick_uber 2
-	ttt_necro_credits_starting 3
-	ttt_necromancer_min_players 6
-	ttt_necromancer_random 40
-	ttt_mimic_min_players 6
-	ttt_mimic_max 2
-	ttt_mimic_pct 0.45
-	ttt2_mim_steal_role 0
-	ttt_doppelganger_min_players 7
-	ttt_doppelganger_pct 0.10000
-	ttt_spy_min_players 6
-    ttt_spy_random 25
+ttt2_beacon_min_buffs 0      (def. 1)
+
+ttt2_beacon_max_buffs 3      (def. 5)
+
+ttt2_beacon_deputize_num_buffs 3      (def. 3)
+
+ttt2_beacon_search_mode 2      (def. 0)     >    0 = confirm teammates, 1 = confirm foes, 2 = confirm any, 3 = dont confirm
+
+ttt2_beacon_speed_boost 0.150000
+
+ttt_amnesiac_min_players 6
+ttt_jackal_min_players 5
+ttt_jackal_pct 0.17
+ttt_jackal_random 30
+ttt_jackal_spawn_siki_deagle 0
+ttt_jackal_spawn_siki_deagle 1
+ttt2_hitman_target_chatreveal 1
+ttt_hit_credits_starting 1
+ttt_lycanthrope_min_players 4
+ttt_lycanthrope_random 50
+ttt_lycanthrope_max 2
+ttt_lycanthrope_pct 0.25
+ttt2_lyc_speed 1.400000
+
+ttt_medic_random 30
+ttt_medic_min_players 6
+ttt2_med_medigun_self_heal_per_tick_uber 2
+ttt_necro_credits_starting 3
+ttt_necromancer_min_players 6
+ttt_necromancer_random 40
+ttt_mimic_min_players 6
+ttt_mimic_max 2
+ttt_mimic_pct 0.45
+ttt2_mim_steal_role 0
+ttt_doppelganger_min_players 7
+ttt_doppelganger_pct 0.10000
+ttt_spy_min_players 6
+ttt_spy_random 25
 	ttt_sheriff_min_players 7
 	ttt2_dep_deagle_refill_cd 240
 	ttt_defective_min_players 7
