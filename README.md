@@ -1,22 +1,18 @@
 # 1. Karma
 
-ttt_karma 1     (def. 30)
+ttt_karma 1     (def. 1)
 
-ttt_karma_persist 1     (def. 30)
+ttt_karma_persist 1     (def. ?)
 
-ttt_karma_round_increment 2     (def. 30)
+ttt_karma_round_increment 2     (def. ?)
 
-ttt_karma_starting 1000     (def. 30)
+ttt_karma_starting 1000     (def. 1000)
 
-ttt_karma_max 1010     (def. 30)
+ttt_karma_max 1010     (def. 1000)
 
-ttt_karma_clean_bonus 25     (def. 30)
+ttt_karma_clean_bonus 25     (def. ?)
 
-ttt_karma_kill_penalty 100     (def. 30)
-
-ttt_karma_hp_mult 1.75     (def. 30)
-
-ttt_karma_hp_tolerance 100     (def. 30)
+ttt_karma_kill_penalty 100     (def. ?)
 
 
 # 2. Voice Chat
@@ -30,7 +26,7 @@ ttt_locational_voice 1     (def. 30)
 
 # 3. Roles
 
-ttt_traitor_pct 0.334     (def. 30)
+ttt_traitor_pct 0.34     (def. 30)
 
 ttt_traitor_max 4     (def. 30)
 
@@ -113,11 +109,15 @@ ttt_karma_hp 1     (def. ?)
 
 ttt_karma_hp_min_health 40     (def. 20)
 
-ttt_karma_low_amount 450     (def. ?)
+ttt_karma_hp_mult 1.75     (def. ?)
+
+ttt_karma_hp_tolerance 100     (def. ?)
 
 ttt_karma_low_ban 1     (def. ?)
 
 ttt_karma_low_ban_minutes 3     (def. ?)
+
+ttt_karma_low_amount 450     (def. ?)
 
 ttt_soda_total_spawn_amount 9     (def. 6)
 
