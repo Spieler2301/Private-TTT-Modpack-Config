@@ -9,9 +9,13 @@ ttt_karma_persist 1
 ttt_karma_round_increment 2
 
 ttt_karma_starting 1000
+
 ttt_karma_max 1010
+
 ttt_karma_clean_bonus 25
+
 ttt_karma_kill_penalty 100
+
 ttt_karma_hp_mult 1.75
 ttt_karma_hp_tolerance 100
 
