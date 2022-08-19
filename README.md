@@ -366,6 +366,8 @@ ttt_necromancer_max 1       (def. 1)
 
 ttt_necro_credits_starting 3       (def. ?)
 
+ttt2_necrodefi_ammo 0.440000       (def. 0.34)
+
 
 # 5.3.1 Addons: TTT2 Classes
 
