@@ -483,6 +483,14 @@ ttt_spy_random 2
 
 ?
 
+# 5.5.10 Duelist
+
+ttt_duelist_pct 0.20
+
+ttt_duelist_random 2
+
+?
+
 
 # 5.5.1 Addons: TTT2 Classes
 
