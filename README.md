@@ -149,15 +149,15 @@ ttt_soda_armorup 15     (def. 10)
 
 ttt_rolevote_autostart 1     (def. ?)
 
-rolevote_min_players 3     (def. ?)
+ttt_rolevote_min_players 5     (def. 7)
 
-rolevote_voteban 1     (def. ?)
+ttt_rolevote_voteban 0     (def. 1)     >    0 = vote for roles getting activated, 1 = vote for roles getting deactivated
+
+ttt_rolevote_count 6     (def. 1)
+
+ttt_rolevote_role_cooldown 0     (def. 1)
 	
-ttt_rolevote_min_players 5     (def. ?)
-	
-ttt_rolevote_count 2     (def. ?)
-	
-ttt_rolevote_always_active hitman     (def. blank)     >    "role1,role2"
+ttt_rolevote_always_active beacon,lycanthrope,occultist,vigilante,sheriff,hitman,defective,jackal,necromancer,amnesiac,medic,mimic,doppelganger     (def. blank)     >    roles seperated by a comma and no space
 
 
 # 5.3 Addons: Weapon Config
