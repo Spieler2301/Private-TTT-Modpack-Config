@@ -123,7 +123,7 @@ ttt_soda_total_spawn_amount 9     (def. 6)
 
 ttt_soda_limit_one_per_player 0     (def. 0)
 
-ttt_soda_speedup 1.500000     (def. 1.75)
+ttt_soda_speedup 1.30     (def. 1.75)
 
 ttt_soda_healup 15     (def. 10)
 
