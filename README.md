@@ -191,13 +191,13 @@ ttt2_lyc_speed 1.400000      (def. ?)
 
 # 5.2.3 Roles: Occultist (Inno)
 
-ttt_occul_min_players 6       (def. 8)
+ttt_occultist_min_players 6       (def. 8)
 
-ttt_occul_random 25       (def. 33)
+ttt_occultist_random 25       (def. 33)
 
-ttt_occul_pct 17       (def. 0.15)
+ttt_occultist_pct 0.17       (def. 0.15)
 
-ttt_occul_max 2       (def. 1)
+ttt_occultist_max 2       (def. 1)
 
 ttt_occultist_hide_identity 1      (def. 0)
 
@@ -208,13 +208,13 @@ ttt_spy_random 25
 
 # 5.2.5 Roles: Sheriff (DT)
 
-ttt_sher_min_players 8       (def. 8)
+ttt_sheriff_min_players 7       (def. 8)
 
-ttt_sher_random 60       (def. 50)
+ttt_sheriff_random 60       (def. 50)
 
-ttt_sher_pct 0.13       (def. 0.13)
+ttt_sheriff_pct 0.13       (def. 0.13)
 
-ttt_sher_max 1       (def. 1)
+ttt_sheriff_max 1       (def. 1)
 
 ttt2_dep_deagle_refill_cd 240       (def. ?)
 
@@ -272,11 +272,11 @@ ttt_hitman_min_players 6       (def. 6)
 
 ttt_hitman_random 75       (def. 50)
 
-ttt_hitman_pct 17       (def. 17)
+ttt_hitman_pct 0.17       (def. 0.17)
 
 ttt_hitman_max 1       (def. 1)
 
-ttt2_hitman_target_chatreveal 1       (def. ?)
+ttt2_hitman_target_chatreveal 0       (def. ?)
 
 ttt_hit_credits_starting 1       (def. ?)
 
@@ -298,11 +298,11 @@ ttt_medic_random 30       (def. 33)
 
 ttt_medic_pct 0.15       (def. 0.15)
 
-ttt2_med_medigun_self_heal_per_tick_uber 2
+ttt2_med_medigun_self_heal_per_tick_uber 2       (def. ?)
 
 ttt2_med_win_enabled 1       (def. 0)
 
-ttt2_med_win_rqd_heal_per_alv_ply 25
+ttt2_med_win_rqd_heal_per_alv_ply 25       (def. ?)
 
 # 5.2.12 Roles: Mimic (NA)
 
@@ -332,7 +332,7 @@ ttt2_dop_steal_role 1       (def. 1)
 
 ttt2_dop_steal_delay 10       (def. 2)
 
-ttt2_dop_replace_role 0       (def. 1)     >    0 = inno, 1 = amnesiac, 2 = unknown, 3 = mimic
+ttt2_dop_replace_role 1       (def. 1)     >    0 = inno, 1 = amnesiac, 2 = unknown, 3 = mimic
 
 # 5.2.15 Roles: Jackal (J)
 
@@ -348,7 +348,7 @@ ttt_jackal_spawn_siki_deagle 1       (def. 1)
 
 ttt2_siki_deagle_refill_cd 140       (def. 120)
 
- ttt2_siki_deagle_refill_cd_per_kill 60       (def. 60)
+ttt2_siki_deagle_refill_cd_per_kill 60       (def. 60)
 
 # 5.2.17 Roles: Necromancer (N)
 
