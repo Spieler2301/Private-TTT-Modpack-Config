@@ -118,18 +118,6 @@ ttt_namechange_bantime 1     (def. 10)
 
 # 5.1 Addons: Misc
 
-ttt_rolevote_autostart 1     (def. ?)
-
-rolevote_min_players 3     (def. ?)
-
-rolevote_voteban 1     (def. ?)
-	
-ttt_rolevote_min_players 5     (def. ?)
-	
-ttt_rolevote_count 2     (def. ?)
-	
-ttt_rolevote_always_active hitman     (def. blank)     >    "role1,role2"
-
 tstat_enabled 1     (def. ?)
 
 ttt_karma_hp 1     (def. ?)
@@ -157,7 +145,22 @@ ttt_soda_healup 15     (def. 10)
 ttt_soda_armorup 15     (def. 10)
 
 
-# 5.2 Addons: Weapon Config
+# 5.2 Addons: Rolevote
+
+ttt_rolevote_autostart 1     (def. ?)
+
+rolevote_min_players 3     (def. ?)
+
+rolevote_voteban 1     (def. ?)
+	
+ttt_rolevote_min_players 5     (def. ?)
+	
+ttt_rolevote_count 2     (def. ?)
+	
+ttt_rolevote_always_active hitman     (def. blank)     >    "role1,role2"
+
+
+# 5.3 Addons: Weapon Config
 
 ttt_demonic_power_regen 8     (def. ?)
 
@@ -180,9 +183,9 @@ ttt_beartrap_escape_pct 0.10000      (def. ?)
 ttt2_minigames_autostart_random 5      (def. ?)
 
 
-# 5.2 Addons: TTT2 Roles
+# 5.4 Addons: TTT2 Roles
 
-# 5.2.1 Roles: Beacon (Inno)
+# 5.4.1 Roles: Beacon (Inno)
 
 ttt_beacon_min_players 5      (def. 6)
 
@@ -202,7 +205,7 @@ ttt2_beacon_search_mode 2      (def. 0)     >    0 = confirm teammates, 1 = conf
 
 ttt2_beacon_speed_boost 0.150000      (def. 0.2)
 
-# 5.2.2 Roles: Lycanthrope (Inno)
+# 5.4.2 Roles: Lycanthrope (Inno)
 
 ttt_lycanthrope_min_players 4      (def. 6)
 
@@ -216,7 +219,7 @@ ttt2_lyc_maxhealth 125      (def. 150)
 
 ttt2_lyc_speed 1.400000      (def. ?)
 
-# 5.2.3 Roles: Occultist (Inno)
+# 5.4.3 Roles: Occultist (Inno)
 
 ttt_occultist_min_players 6       (def. 8)
 
@@ -230,12 +233,12 @@ ttt_occultist_hide_identity 1      (def. 0)
 
 ttt_occultist_fire_radius 500      (def. 500)
 
-# 5.2.4 Roles: Spy (Inno)
+# 5.4.4 Roles: Spy (Inno)
 
 ttt_spy_min_players 6
 ttt_spy_random 25
 
-# 5.2.5 Roles: Sheriff (DT)
+# 5.4.5 Roles: Sheriff (DT)
 
 ttt_sheriff_min_players 7       (def. 8)
 
@@ -247,11 +250,11 @@ ttt_sheriff_max 1       (def. 1)
 
 ttt2_dep_deagle_refill_cd 240       (def. ?)
 
-# 5.2.6 Roles: Deputy (Inno)
+# 5.4.6 Roles: Deputy (Inno)
 
 No console commands
 
-# 5.2.7 Roles: Vigilante (DT)
+# 5.4.7 Roles: Vigilante (DT)
 
 ttt_vigilante_min_players 5       (def. 6)
 
@@ -269,7 +272,7 @@ ttt2_vig_team_kill_penalty 0.15       (def. 0.10)
 
 ttt2_vig_min_multiplier 0.6       (def. 0.5)
 
-# 5.2.8 Roles: Defective (T)
+# 5.4.8 Roles: Defective (T)
 
 ttt_defective_min_players 7       (def. 10)
 
@@ -295,7 +298,7 @@ ttt2_defective_can_see_defectives 0       (def. 1)
 
 ttt2_defective_special_det_handling_mode 2       (def. 1)     >    0 = all det have thier special roles, 1 = not det have thier special roles, 2 = all det get special roles when def are dead
 
-# 5.2.9 Roles: Hitman (T)
+# 5.4.9 Roles: Hitman (T)
 
 ttt_hitman_min_players 6       (def. 6)
 
@@ -309,7 +312,7 @@ ttt2_hitman_target_chatreveal 0       (def. ?)
 
 ttt_hit_credits_starting 1       (def. ?)
 
-# 5.2.10 Roles: Amnesiac (NA)
+# 5.4.10 Roles: Amnesiac (NA)
 
 ttt_amnesiac_min_players 10       (def. 7)
 
@@ -319,7 +322,7 @@ ttt_amnesiac_pct 0.1       (def. 0.17)
 
 ttt_amnesiac_max 1       (def. 1)
 
-# 5.2.11 Roles: Medic (NA)
+# 5.4.11 Roles: Medic (NA)
 
 ttt_medic_min_players 6       (def. 8)
 
@@ -333,7 +336,7 @@ ttt2_med_win_enabled 1       (def. 0)
 
 ttt2_med_win_rqd_heal_per_alv_ply 25       (def. ?)
 
-# 5.2.12 Roles: Mimic (NA)
+# 5.4.12 Roles: Mimic (NA)
 
 ttt_mimic_min_players 6       (def. 6)
 
@@ -345,7 +348,7 @@ ttt_mimic_max 2       (def. 1)
 
 ttt2_mim_steal_role 1       (def. 1)
 
-# 5.2.13 Roles: Doppelganger (T?/Dop?)
+# 5.4.13 Roles: Doppelganger (T?/Dop?)
 
 ttt_doppelganger_min_players 7       (def. 6)
 
@@ -357,13 +360,13 @@ ttt_doppelganger_max 1       (def. 1)
 
 ttt2_dop_steal_role 1       (def. 1)
 
-# 5.2.14 Roles: Mim & Dop Commands
+# 5.4.14 Roles: Mim & Dop Commands
 
 ttt2_dop_steal_delay 10       (def. 2)
 
 ttt2_dop_replace_role 1       (def. 1)     >    0 = inno, 1 = amnesiac, 2 = unknown, 3 = mimic
 
-# 5.2.15 Roles: Jackal (J)
+# 5.4.15 Roles: Jackal (J)
 
 ttt_jackal_min_players 5       (def. 7)
 
@@ -373,13 +376,13 @@ ttt_jackal_pct 0.17       (def. 17)
 
 ttt_jackal_spawn_siki_deagle 1       (def. 1)
 
-# 5.2.16 Roles: Sidekick (J)
+# 5.4.16 Roles: Sidekick (J)
 
 ttt2_siki_deagle_refill_cd 140       (def. 120)
 
 ttt2_siki_deagle_refill_cd_per_kill 60       (def. 60)
 
-# 5.2.17 Roles: Necromancer (N)
+# 5.4.17 Roles: Necromancer (N)
 
 ttt_necromancer_min_players 6       (def. 7)
 
@@ -394,11 +397,11 @@ ttt_necro_credits_starting 3       (def. ?)
 ttt2_necrodefi_ammo 0.440000       (def. 0.34)
 
 
-# 5.3.1 Addons: TTT2 Classes
+# 5.5.1 Addons: TTT2 Classes
 
 tttc_class_bountyhunter_enabled 0       (def. 1)
 
- # 5.3.2 TTT2 Custom Classes
+# 5.5.2 TTT2 Custom Classes
 
 Noob: Smart Pistol
 
@@ -428,7 +431,7 @@ Spy: Cloaking Device, Identity Disguiser
 
 Possum: Dead Ringer
 
- : Doubleroot Beer, Stamin Up, Speed Cola
+Junky : Doubleroot Beer, Stamin Up, Speed Cola
 
 Athlete: Jarate, Homerun Bat
 
