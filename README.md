@@ -338,7 +338,7 @@ ttt2_dop_replace_role 1       (def. 1)     >    0 = inno, 1 = amnesiac, 2 = unkn
 
 ttt_jackal_min_players 5       (def. 7)
 
-ttt_jackal_random 30       (def. 50)
+ttt_jackal_random 40       (def. 50)
 
 ttt_jackal_pct 0.17       (def. 17)
 
