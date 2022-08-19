@@ -397,6 +397,93 @@ ttt_necro_credits_starting 3       (def. ?)
 ttt2_necrodefi_ammo 0.440000       (def. 0.34)
 
 
+# 5.5 Addons: TTT2 Fun Roles
+
+# 5.5.1 Jester
+
+ttt_jester_pct 0.20       (def. ?)
+
+ttt_jester_random 2       (def. ?)
+
+ttt_jester_min_players 5       (def. 8)
+
+ttt2_jes_announce 1       (def. 1)
+
+
+# 5.5.2 Swapper
+
+ttt_swapper_pct 0.20       (def. ?)
+
+ttt_swapper_random 2       (def. 30)
+
+ttt_swapper_min_players 5       (def. 5)
+
+ttt2_swapper_killer_health 25       (def. 1)
+
+ttt2_swapper_respawn_health 80       (def. 100)
+
+
+# 5.5.3 Astronaut
+
+ttt_astronaut_pct 0.20       (def. 0.13)
+
+ttt_astronaut_random 2       (def. 30)
+
+ttt_astronaut_min_players 7       (def. 8)
+
+# 5.5.4 Undecided
+
+ttt_undecided_pct 0.20       (def. 0.13)
+
+ttt_undecided_random 2       (def. 30)
+
+ttt_undecided_min_players 5       (def. 6)
+
+ttt2_undecided_no_vote_punishment_mode 2       (def. 3)     >    0 = die, 1 = random ballot role, 2 = inno, 3 = jester
+
+# 5.5.5 Hidden
+
+ttt_hidden_pct 0.20       (def. 0.15)
+
+ttt_hidden_random 2       (def. 33)
+
+ttt_hidden_min_players 5       (def. 7)
+
+ttt2_hdn_knife_delay 10       (def. 15)
+
+# 5.5.6 The Flood
+
+ttt_fcf_pct 0.20
+
+ttt_fcf_random 2
+
+?
+
+# 5.5.7 Loot Goblin
+
+ttt_lootgoblin_pct 0.20
+
+ttt_lootgoblin_random 2
+
+?
+
+# 5.5.8 Survivalist
+
+ttt_survivalist_pct 0.20
+
+ttt_survivalist_random 5
+
+?
+
+# 5.5.9 Spy
+
+ttt_spy_pct 0.20
+
+ttt_spy_random 2
+
+?
+
+
 # 5.5.1 Addons: TTT2 Classes
 
 tttc_class_bountyhunter_enabled 0       (def. 1)
