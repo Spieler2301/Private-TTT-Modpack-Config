@@ -1,5 +1,30 @@
 Config for this pack: https://steamcommunity.com/sharedfiles/filedetails/?id=2034869743
 
+# 0. Shop Adjustments
+
+Air To Surface Missile: 2 Credits     (def. 1)
+
+Climb: 1 Credit     (def. 2)
+
+Laser Phaser: 2 Credits     (def. 1)
+
+Medkit: 2 Credits     (def. 1)
+
+Prop Rain: 2 Credits     (def. 1)
+
+Radio: not buyalbe
+
+Russian Roulette: 0 Credits     (def. 1)
+
+Smoke Grenade: 0 Credits, player limited, does not spawn     (def. 1, unlimited, does spawn)
+
+Super Smoke Grenade: does spawn     (def. does not spawn)
+
+Snake Gun: 2 Credits     (def. 1)
+
+Traitorfier: 2 Credits     (def. ?)
+
+
 # 1. Karma
 
 ttt_karma 1     (def. 1)
