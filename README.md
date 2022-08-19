@@ -1,3 +1,5 @@
+Config for this pack: https://steamcommunity.com/sharedfiles/filedetails/?id=2034869743
+
 # 1. Karma
 
 ttt_karma 1     (def. 1)
@@ -201,6 +203,8 @@ ttt_occultist_max 2       (def. 1)
 
 ttt_occultist_hide_identity 1      (def. 0)
 
+ttt_occultist_fire_radius 500      (def. 500)
+
 # 5.2.4 Roles: Spy (Inno)
 
 ttt_spy_min_players 6
@@ -363,6 +367,52 @@ ttt_necromancer_max 1       (def. 1)
 ttt_necro_credits_starting 3       (def. ?)
 
 
-# 5.3 Addons: TTT2 Classes
+# 5.3.1 Addons: TTT2 Classes
 
 tttc_class_bountyhunter_enabled 0       (def. 1)
+
+ # 5.3.2 TTT2 Custom Classes
+
+Noob: Smart Pistol
+
+Meneater: Evolve
+
+Cactus: Thorns Potions
+
+Nobody: Disguiser
+
+Scientist: Newton Launcher, Roller Mine
+
+Freerunner: Red Bull, 
+
+Bomb Squad?: Marthydom, Plazma
+
+Gambler: PResent Of Fate, Random Damadge
+
+SWAT: Flashbang, Body Armor
+
+Seer: Clairvoiancy, Radar
+
+Ninja: Shuriken, Blue Bull
+
+Private Investigator: Binoculars, Slowmotion
+
+Spy: Cloaking Device, Identity Disguiser
+
+Possum: Dead Ringer
+
+ : Doubleroot Beer, Stamin Up, Speed Cola
+
+Athlete: Jarate, Homerun Bat
+
+Demon: Ametarasu, Demonic Proseccion
+
+Blizzard: Snowball, Freeze Gun
+
+Rambo: Infinishot,
+
+Manipulator: SATM
+
+Medic: Defribrilator, Regeneratoin
+
+Mimic: Prop Disguiser, Hobo
