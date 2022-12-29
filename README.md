@@ -6,6 +6,8 @@ Air To Surface Missile: 2 Credits     (def. 1)
 
 Climb: 1 Credit     (def. 2)
 
+Jarate: not buyable (def. buyable)
+
 Laser Phaser: 2 Credits     (def. 1)
 
 Medkit: 2 Credits     (def. 1)
