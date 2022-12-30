@@ -502,7 +502,7 @@ tttc_class_bountyhunter_enabled 0       (def. 1)
 
 Noob: Smart Pistol
 
-Meneater: Evolve
+Maneater: Evolve
 
 Cactus: Thorns Potions
 
@@ -510,11 +510,11 @@ Nobody: Disguiser
 
 Scientist: Newton Launcher, Roller Mine
 
-Freerunner: Red Bull, 
+Freerunner: Red Bull
 
-Bomb Squad?: Marthydom, Plazma
+Martyr: Jihad Bomb, Plazma
 
-Gambler: PResent Of Fate, Random Damadge
+Gambler: Present Of Fate, Random Damadge
 
 SWAT: Flashbang, Body Armor
 
@@ -536,10 +536,20 @@ Demon: Ametarasu, Demonic Proseccion
 
 Blizzard: Snowball, Freeze Gun
 
-Rambo: Infinishot,
+Rambo: Infinishot
 
 Manipulator: SATM
 
-Medic: Defribrilator, Regeneratoin
+Medic: Defribrilator, MEdkit
 
 Mimic: Prop Disguiser, Hobo
+
+Dem+Mar: Demonic Prossecion, Martydom, Jihad
+
+Sturdy: No Downing, Ne Energy, No Explosion, No Fall, No Fire, No Hazard, No Prop
+
+Portal: Portal Gun, No Fall
+
+Hitman: Silent Pistol,
+
+Police: Tazer, 
