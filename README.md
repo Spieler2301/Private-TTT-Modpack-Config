@@ -4,6 +4,8 @@ Config for this pack: https://steamcommunity.com/sharedfiles/filedetails/?id=203
 
 Air To Surface Missile: 2 Credits     (def. 1)
 
+Body Armor: 25 Armor     (def. 30)
+
 Climb: 1 Credit     (def. 2)
 
 Jarate: not buyable (def. buyable)
