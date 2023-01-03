@@ -26,8 +26,6 @@ Smoke Grenade: 0 Credits, player limited, does not spawn     (def. 1, unlimited,
 
 Super Smoke Grenade: does spawn     (def. does not spawn)
 
-Snake Gun: 2 Credits     (def. 1)
-
 Traitorfier: 1 per game     (def. one per player)
 
 
