@@ -24,7 +24,7 @@ Super Smoke Grenade: does spawn     (def. does not spawn)
 
 Snake Gun: 2 Credits     (def. 1)
 
-Traitorfier: 2 Credits     (def. ?)
+Traitorfier: 1 per game     (def. one per player)
 
 
 # 1. Karma
