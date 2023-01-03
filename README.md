@@ -4,6 +4,8 @@ Config for this pack: https://steamcommunity.com/sharedfiles/filedetails/?id=203
 
 Air To Surface Missile: 2 Credits     (def. 1)
 
+AK 47 (Traitor): 2 Credits, 1 per player     (def. 1, unlimited)
+
 Body Armor: 25 Armor     (def. 30)
 
 Climb: 1 Credit     (def. 2)
