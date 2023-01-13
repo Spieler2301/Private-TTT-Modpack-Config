@@ -101,9 +101,9 @@ ttt_roundtime_minutes 15     (def. 10)
 
 ttt_haste 1     (def. 1)
 
-ttt_haste_starting_minutes 7     (def. 5)
+ttt_haste_starting_minutes 6.5     (def. 5)
 
-ttt_haste_minutes_per_death 0.6     (def. 0.5)
+ttt_haste_minutes_per_death 0.2     (def. 0.5)
 
 # 4.3 Rounds: Misc
 
