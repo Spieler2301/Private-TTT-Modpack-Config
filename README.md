@@ -24,6 +24,8 @@ Russian Roulette: 0 Credits     (def. 1)
 
 Smoke Grenade: 0 Credits, player limited, does not spawn     (def. 1, unlimited, does spawn)
 
+Speedrun: 2 Credits (def. 1)
+
 Super Smoke Grenade: does spawn     (def. does not spawn)
 
 Traitorfier: 1 per game     (def. one per player)
@@ -126,7 +128,7 @@ tstat_enabled 1     (def. ?)
 
 ttt_karma_hp 1     (def. ?)
 
-ttt_karma_hp_min_health 40     (def. 20)
+ttt_karma_hp_min_health 60     (def. 20)
 
 ttt_karma_hp_mult 1.75     (def. ?)
 
@@ -142,9 +144,9 @@ ttt_soda_total_spawn_amount 9     (def. 6)
 
 ttt_soda_limit_one_per_player 0     (def. 0)
 
-ttt_soda_speedup 1.30     (def. 1.75)
+ttt_soda_speedup 1.20     (def. 1.75)
 
-ttt_soda_healup 15     (def. 10)
+ttt_soda_healup 10     (def. 10)
 
 ttt_soda_armorup 15     (def. 10)
 
