@@ -107,6 +107,7 @@ ttt_haste_starting_minutes 6.5     (def. 5)
 
 ttt_haste_minutes_per_death 0.2     (def. 0.5)
 
+
 # 4.3 Rounds: Misc
 
 ttt_no_nade_throw_during_prep 1     (def. 0)
@@ -125,6 +126,8 @@ ttt_namechange_bantime 1     (def. 10)
 # 5.1 Addons: Misc
 
 tstat_enabled 1     (def. ?)
+
+ttt2_minigames_autostart_random 5      (def. ?)
 
 ttt_karma_hp 1     (def. ?)
 
@@ -168,7 +171,7 @@ ttt_rolevote_always_active beacon,lycanthrope,occultist,vigilante,sheriff,hitman
 
 # 5.3 Addons: Weapon Config
 
-ttt_demonic_power_regen 8     (def. ?)
+ttt_beartrap_escape_pct 0.10000      (def. ?)
 
 ttt_clairvoyant_camera_distance 200     (def. ?)
 
@@ -178,15 +181,15 @@ ttt_clairvoyant_camera_distance 170     (def. 150)
 
 DeathNote_DeathTime 30     (def. ?)
 
-ttt_mineturtle_limited_stock 0     (def. 1)
+ttt_demonic_power_regen 7     (def. ?)
 
 ttt_enlarge_scale 1.8     (def. ?)
 
 ttt_enlarge_dmg_multiplier 1.35     (def. ?)
 
-ttt_beartrap_escape_pct 0.10000      (def. ?)
+ttt_mineturtle_limited_stock 0     (def. 1)
 
-ttt2_minigames_autostart_random 5      (def. ?)
+ttt_poison_station_amount_tick 2 (def. 5)
 
 
 # 5.4 Addons: TTT2 Roles
