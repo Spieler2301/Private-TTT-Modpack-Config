@@ -10,6 +10,8 @@ Body Armor: 25 Armor     (def. 30)
 
 Climb: 1 Credit     (def. 2)
 
+Crowber: 474 Push Force, 1.3 Cooldown (def. 395, 1.0)
+
 Jarate: not buyable (def. buyable)
 
 Laser Phaser: 2 Credits     (def. 1)
