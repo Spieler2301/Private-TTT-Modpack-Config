@@ -247,6 +247,7 @@ ttt_occultist_fire_radius 500      (def. 500)
 # 5.4.4 Roles: Spy (Inno)
 
 ttt_spy_min_players 6
+
 ttt_spy_random 25
 
 # 5.4.5 Roles: Sheriff (DT)
@@ -311,11 +312,11 @@ ttt2_defective_special_det_handling_mode 2       (def. 1)     >    0 = all det h
 
 # 5.4.9 Roles: Hitman (T)
 
-ttt_hitman_min_players 6       (def. 6)
+ttt_hitman_min_players 9       (def. 6)
 
-ttt_hitman_random 75       (def. 50)
+ttt_hitman_random 100       (def. 50)
 
-ttt_hitman_pct 0.17       (def. 0.17)
+ttt_hitman_pct 0.112       (def. 0.17)
 
 ttt_hitman_max 1       (def. 1)
 
