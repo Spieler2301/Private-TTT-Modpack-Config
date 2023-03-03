@@ -214,7 +214,7 @@ ttt2_beacon_deputize_num_buffs 3      (def. 3)
 
 ttt2_beacon_search_mode 2      (def. 0)     >    0 = confirm teammates, 1 = confirm foes, 2 = confirm any, 3 = dont confirm
 
-ttt2_beacon_speed_boost 0.150000      (def. 0.2)
+ttt2_beacon_speed_boost 0.100000      (def. 0.2)
 
 # 5.4.2 Roles: Lycanthrope (Inno)
 
