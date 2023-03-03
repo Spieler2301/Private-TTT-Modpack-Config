@@ -503,6 +503,10 @@ ttt_duelist_random 2
 
 ?
 
+# 5.5.11 Flood
+
+ttt2_flood_respawndelay 10
+
 
 # 5.5.1 Addons: TTT2 Classes
 
