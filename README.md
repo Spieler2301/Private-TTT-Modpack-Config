@@ -198,23 +198,29 @@ ttt_poison_station_amount_tick 2 (def. 5)
 
 # 5.4.1 Roles: Beacon (Inno)
 
-ttt_beacon_min_players 5      (def. 6)
+ttt_beacon_min_players 9      (def. 6)
 
-ttt_beacon_random 35 
+ttt_beacon_random 100      (def. ??) 
 
-ttt_beacon_pct 0.2      (def. 0.15)
+ttt_beacon_pct 0.12      (def. 0.15)
 
 ttt_beacon_max 1      (def. 1)
 
 ttt2_beacon_min_buffs 0      (def. 1)
 
-ttt2_beacon_max_buffs 3      (def. 5)
+ttt2_beacon_max_buffs 5      (def. 5)
 
 ttt2_beacon_deputize_num_buffs 3      (def. 3)
 
 ttt2_beacon_search_mode 2      (def. 0)     >    0 = confirm teammates, 1 = confirm foes, 2 = confirm any, 3 = dont confirm
 
-ttt2_beacon_speed_boost 0.100000      (def. 0.2)
+ttt2_beacon_buff_every_x_seconds 300
+
+ttt2_beacon_speed_boost 0.075000      (def. 0.2)
+
+ttt2_beacon_hp_regen_boost 0.100000      (def. 0.2)
+
+ttt2_beacon_fire_rate_boost 0.200000      (def. 0.2)
 
 # 5.4.2 Roles: Lycanthrope (Inno)
 
@@ -481,11 +487,15 @@ ttt_lootgoblin_random 2
 
 # 5.5.8 Survivalist
 
-ttt_survivalist_pct 0.20
+ttt_survivalist_pct 0.15   (def. 15)
 
-ttt_survivalist_random 5
+ttt_survivalist_random 10   (def. 100)
 
-?
+ttt_survivalist_min_players 7   (def. 7)
+
+ttt_survivalist_max 1   (def. 2)
+
+
 
 # 5.5.9 Spy
 
