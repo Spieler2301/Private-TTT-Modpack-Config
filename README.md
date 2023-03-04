@@ -274,15 +274,15 @@ No console commands
 
 # 5.4.7 Roles: Vigilante (DT)
 
-ttt_vigilante_min_players 5       (def. 6)
+ttt_vigilante_min_players 6       (def. 6)
 
 ttt_vigilante_random 50       (def. 33)
 
-ttt_vigilante_pct 0.20       (def. 0.15)
+ttt_vigilante_pct 0.15       (def. 0.15)
 
-ttt_vigilante_max 2       (def. 1)
+ttt_vigilante_max 1       (def. 1)
 
-ttt2_vig_armor 0       (def. 30)
+ttt2_vig_armor 10       (def. 30)
 
 ttt2_vig_enemy_kill_bonus 0.25       (def. 0.20)
 
