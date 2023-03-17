@@ -234,7 +234,7 @@ ttt_lycanthrope_max 2      (def. 1)
 
 ttt2_lyc_maxhealth 125      (def. 150)
 
-ttt2_lyc_speed 1.400000      (def. ?)
+ttt2_lyc_speed 1.200000      (def. ?)
 
 # 5.4.3 Roles: Occultist (Inno)
 
