@@ -127,6 +127,8 @@ ttt_namechange_bantime 1     (def. 10)
 
 # 5.1 Addons: Misc
 
+ttt_voice_range 1600     (def. 800)
+
 tstat_enabled 1     (def. ?)
 
 ttt2_minigames_autostart_random 5      (def. ?)
