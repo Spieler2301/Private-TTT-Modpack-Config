@@ -16,7 +16,9 @@ Jarate: not buyable (def. buyable)
 
 Laser Phaser: 2 Credits     (def. 1)
 
-Medkit: 2 Credits     (def. 1)
+Medkit: team limited     (def. unlimitd)
+
+Nyan Gun: 2 Credits   (def. 1)
 
 Prop Rain: 2 Credits     (def. 1)
 
